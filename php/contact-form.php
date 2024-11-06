@@ -1,26 +1,23 @@
 <?php
 // if the url field is empty
-if(isset($_POST['url']) && $_POST['url'] == ''){
+if ($_SERVER["REQUEST-METHOD"] == "POST") {
 
 	// put your email address here
-	$youremail = 'daquanj.dev@gmail.com';  
+	$to = "daquanj.dev@gmail.com";  
+	$subject = "Recruiters and Hiring Managers are messaging you - Daquan : "
 
-	// add your self message here
-	$body = "Recruites and Hiring Managers are messaging you - Daquan :
-	
-	Name:  $_POST[name]
-	Email:  $_POST[email]
-	Subject:  $_POST[subject]
-	Message:  $_POST[message]";
+	// construct the email body
+	$body = "Name:  $_POST[name]";
+	$body .= "Email:  $_POST[name]";
+	$body .= "Subject:  $_POST[name]";
+	$body .= "Message:  $_POST[name]";
 
-	if( $_POST['email'] && !preg_match( "/[\r\n]/", $_POST['email']) ) {
-	  $headers = "From: $_POST[email]";
-	} else {
-	  $headers = "From: $youremail";
-	}
+    // Set the email headers
+	$headers = "From: $email\r\n";
+	$headers .= "Reply-To: $email\r\n";
     
-    // change mail title here
-	mail($youremail, 'Message from Da\'Quan', $body, $headers );
+     // send the email
+	 mail($to, $subject, $body, $headers);
 
 } ?>
 <!DOCTYPE HTML>
