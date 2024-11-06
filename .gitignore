@@ -1,5 +1,9 @@
 # assets
-/assets/css/bootstrap.min.css
-/assets/css/responsive.css
-/assets/css/venobox.min.css
-/assets/css/swiper.min.css
+
+# JS modules
+./assets/js/*
+
+# CSS
+./assets/css/bootstrap.min.css
+./assets/css/swiper.min.css
+./assets/css/venobox.min.css

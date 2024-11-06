@@ -808,6 +808,8 @@ select:focus, textarea:focus, input:focus { border: 1px solid var(--dtr-input-fo
 .dtr-meta-item::before { display: inline-flex; color: var(--dtr-text-color-three); }
 .dtr-meta-author::before { font-family: 'icomoon'; content: "\e952"; font-size: 16px; margin-right: 10px; }
 .dtr-meta-date::before { font-family: 'icomoon'; content: "\e958"; font-size: 16px; margin-right: 10px; }
+.dtr-meta-web::before { font-family: 'icomoon'; content: "\e916"; font-size: 24px; margin-right: 10px; }
+.dtr-meta-github::before { font-family: 'icomoon'; content: "\e97d"; font-size: 20px; margin-right: 10px; }
 .dtr-meta a { color: inherit; }
 .dtr-meta a:hover { color: var(--dtr-text-color-two); }
 /*== category ==*/
