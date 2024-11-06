@@ -714,6 +714,7 @@ opacity:0
 .dtr-social .dtr-pinterest::before, .dtr-social-share-list .dtr-pinterest-share::before { content: "\e985"; }
 .dtr-social .dtr-google::before, .dtr-social-share-list .dtr-google-share::before { content: "\e97e"; }
 .dtr-social .dtr-linkedin::before, .dtr-social-share-list .dtr-linkedin-share::before { content: "\e980"; }
+.dtr-social .dtr-github::before, .dtr-social-share-list .dtr-github-share::before { content: "\e97d"; }
 .dtr-social .dtr-instagram::before, .dtr-social-share-list .dtr-instagram-share::before { content: "\e97f"; }
 .dtr-social .dtr-meta::before { content: "\e984"; }
 .dtr-social .dtr-threads::before { content: "\e995"; }
