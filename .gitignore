@@ -1,9 +1,8 @@
-# assets
+# PHP
+/php/vendor
+/php/composer.lock
 
-# JS modules
-./assets/js/*
+php.zip
 
-# CSS
-./assets/css/bootstrap.min.css
-./assets/css/swiper.min.css
-./assets/css/venobox.min.css
+#config
+.env
