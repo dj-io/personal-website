@@ -8,9 +8,9 @@ if ($_SERVER["REQUEST-METHOD"] == "POST") {
 
 	// construct the email body
 	$body = "Name:  $_POST[name]";
-	$body .= "Email:  $_POST[name]";
-	$body .= "Subject:  $_POST[name]";
-	$body .= "Message:  $_POST[name]";
+	$body .= "Email:  $_POST[email]";
+	$body .= "Subject:  $_POST[subject]";
+	$body .= "Message:  $_POST[message]";
 
     // Set the email headers
 	$headers = "From: $email\r\n";
