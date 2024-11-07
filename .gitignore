@@ -1,8 +1,0 @@
-# PHP
-/php/vendor
-/php/composer.lock
-
-php.zip
-
-#config
-.env

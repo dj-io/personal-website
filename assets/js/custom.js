@@ -116,6 +116,7 @@ $(document).ready(function() {
     // Sroll to top
     var offset = 800;
     var duration = 400;
+
     $(window).scroll(function() {
     if ($(this).scrollTop() > offset) {
         $('#take-to-top').addClass("active");
@@ -123,6 +124,7 @@ $(document).ready(function() {
         $('#take-to-top').removeClass("active");
     }
     });
+
     $('#take-to-top').on('click', function(event) {
         event.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
@@ -212,19 +214,38 @@ $(document).ready(function() {
         $(".counting-number").countTo();
     });
     
-    // contact form
+
     $(function () {
         var v = $("#contactform").validate({
             submitHandler: function (form) {
-                $(form).ajaxSubmit({
-                    target: "#contactresult",
-                    clearForm: true
+
+                // Capture form data
+                var formData = {
+                    sender: $('input[name="email"]').val(), // sender email
+                    subject: $('input[name="subject"]').val(), // sender subject
+                    body_html: "Name: " + $('input[name="name"]').val() + " <br/> Message: " + $('textarea[name="message"]').val() // email body - sender name and message
+                };
+
+                // Send AJAX request to API Gateway
+                $.ajax({
+                    url: "https://e8w8hi2sre.execute-api.us-east-1.amazonaws.com/pws-send",  // Replace with your API Gateway endpoint
+                    type: "POST",
+                    dataType: "json",
+                    contentType: "application/json",
+                    data: JSON.stringify(formData),
+                    success: function (response) {
+                        $("#contactresult").html("<br/> <p>Thank you, Your message sent successfully!</p>");
+                        $(form).trigger("reset");  // Clear the form
+                    },
+                    error: function (xhr, status, error) {
+                        $("#contactresult").html('<br/> <p align="center">Failed to send message. <br/> Please try again later, or send a direct email to daquanj.dev@gmail.com. </p>');
+                    }
                 });
             }
         });
     });
-
 });
+
 // document ready end
 
 // on load
