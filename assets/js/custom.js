@@ -223,7 +223,8 @@ $(document).ready(function() {
                 var formData = {
                     sender: $('input[name="email"]').val(), // sender email
                     subject: $('input[name="subject"]').val(), // sender subject
-                    body_html: "Name: " + $('input[name="name"]').val() + " <br/> Message: " + $('textarea[name="message"]').val() // email body - sender name and message
+                    body_html: "Name: " + $('input[name="name"]').val() + " <br/> Message: " + $('textarea[name="message"]').val(), // email body - sender name and message
+                    body_text: "Name: " + $('input[name="name"]').val() + " Message: " + $('textarea[name="message"]').val() // email body - sender name and message 
                 };
 
                 // Send AJAX request to API Gateway
