@@ -30,6 +30,7 @@ Built with JQuery, this fully responsive personal portfolio website serves as a 
 - **Isotope & Masonry**: Used for responsive grid layouts
 - **imagesLoaded**: Ensures images load before layout adjustments
 - **IcoMoon Fonts & Icons**: Icon fonts for visual elements
+**AWS Lambda, SES, and API Gateway**: Python-powered  microservice for contact form email handling. **The Lambda function is managed separately in [this repository](https://github.com/DaquanJ/lambdas).*
 
 ## 🛠 set-up
 
