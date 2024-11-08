@@ -1,5 +1,5 @@
 <h1 align="center"> 
-<img style="border-radius:50%" src="./assets/images/daquanjohnson-nft-headshot.jpeg" width="75" height="75" alt="dj-headshot" /> 
+<img style="border-radius:50%" src="./assets/images/D-ICON.png" width="75" height="75" alt="dj-headshot" /> 
 </br> daquanjohnson
 </h1>
 
