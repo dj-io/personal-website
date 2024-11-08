@@ -218,12 +218,18 @@ $(document).ready(function() {
     $(function () {
         var v = $("#contactform").validate({
             submitHandler: function (form) {
+                
+                // set personal subject and the sender email body
+                var subject = `Take a look at this message ${$('input[name="name"]').val()} sent from your personal site - Da'Quan` 
+                var sender_body = `<h1> Name:  ${$('input[name="name"]').val()} <br/>
+	                                    Email: ${$('input[name="email"]').val()} </h1> <br/>
+	                                <p> Subject:  ${$('input[name="subject"]').val()} <br/>
+	                                    Message:  ${$('textarea[name="message"]').val()} </p>`
 
                 // Capture form data
                 var formData = {
-                    sender: $('input[name="email"]').val(), // sender email
-                    subject: $('input[name="subject"]').val(), // sender subject
-                    body_html: "Name: " + $('input[name="name"]').val() + " <br/> Message: " + $('textarea[name="message"]').val(), // email body - sender name and message
+                    subject: subject, // personalized subject
+                    body_html: sender_body, // email body - (sender name,email,subject,message)
                     body_text: "Name: " + $('input[name="name"]').val() + " Message: " + $('textarea[name="message"]').val() // email body - sender name and message 
                 };
 
@@ -235,11 +241,11 @@ $(document).ready(function() {
                     contentType: "application/json",
                     data: JSON.stringify(formData),
                     success: function (response) {
-                        $("#contactresult").html("<br/> <p>Thank you, Your message sent successfully!</p>");
+                        $("#contactresult").html("<br/> <p>Thank you, Your message sent successfully!</p>"); // display some success message 
                         $(form).trigger("reset");  // Clear the form
                     },
                     error: function (xhr, status, error) {
-                        $("#contactresult").html('<br/> <p align="center">Failed to send message. <br/> Please try again later, or send a direct email to daquanj.dev@gmail.com. </p>');
+                        $("#contactresult").html('<br/> <p align="center">Failed to send message. <br/> Please try again later, or send a direct email to daquanj.dev@gmail.com. </p>'); // display some error message
                     }
                 });
             }
