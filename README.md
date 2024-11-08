@@ -13,7 +13,7 @@ Built with JQuery, this fully responsive personal portfolio website serves as a 
 <img  src="./assets//images/dj-me.png" alt="dj-headshot" /> 
 
 # Repository
-### This repository contains a single-page web app:
+### This repository contains a single-page site:
 - **Index.HTML**: The single-page HTML site located in the root directory
 - **Assets**: All static files located in the `/assets` directory
   - `/css` - Stylesheets for custom styling
