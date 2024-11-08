@@ -235,7 +235,7 @@ $(document).ready(function() {
 
                 // Send AJAX request to API Gateway
                 $.ajax({
-                    url: "https://e8w8hi2sre.execute-api.us-east-1.amazonaws.com/pws-send",  // Replace with your API Gateway endpoint
+                    url: "%%API_GATEWAY_URL%%",  // Replace with your API Gateway endpoint
                     type: "POST",
                     dataType: "json",
                     contentType: "application/json",
