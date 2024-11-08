@@ -53,9 +53,9 @@ Ensure you have the following installed:
 
 2. **Live Server** (Optional): Open `VS Code`
 
-  - Install the `Live Server` extension to easily view your changes in real-time.
+    - Install the `Live Server` extension to easily view your changes in real-time.
 
-  - To install:
-    - Open **Extensions** in VS Code (left sidebar   or Ctrl+Shift+X).
-    - Search for **Live Server** and click **Install**.
-    - Once installed, right-click on `index.html` and select **Open with Live Server**. This will open your site in a browser window and automatically refresh when you make and save changes.
+    - To install:
+      - Open **Extensions** in VS Code (left sidebar   or Ctrl+Shift+X).
+      - Search for **Live Server** and click **Install**.
+      - Once installed, right-click on `index.html` and select **Open with Live Server**. This will open your site in a browser window and automatically refresh when you make and save changes.
