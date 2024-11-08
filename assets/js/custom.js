@@ -233,9 +233,11 @@ $(document).ready(function() {
                     body_text: "Name: " + $('input[name="name"]').val() + " Message: " + $('textarea[name="message"]').val() // email body - sender name and message 
                 };
 
+                var apiUrl = fetch('/config.json').then(response => response.json()).then(config => config.API_GATEWAY_URL).catch(error => console.error("Error loading config:", error));
+
                 // Send AJAX request to API Gateway
                 $.ajax({
-                    url: "%%API_GATEWAY_URL%%",  // Replace with your API Gateway endpoint
+                    url: apiUrl,  // Replace with your API Gateway endpoint
                     type: "POST",
                     dataType: "json",
                     contentType: "application/json",
