@@ -46,7 +46,10 @@ Ensure you have the following installed:
 
     ```bash
     git clone https://github.com/yourusername/your-html-site.git
+    
     cd your-html-site
+    ```
+
 ### Running the Application
 
 1. **Open Directly:** Open `index.html` in your preferred web browser.
