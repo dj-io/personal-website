@@ -49,11 +49,11 @@ Ensure you have the following installed:
 ### Running the Application
 
 1. **Open Directly:** Open `index.html` in your preferred web browser.
-    - You can simply **double-click** `index.html` to open it in your default browser, or right-click and choose `"Open with"` to select a specific browser.
+    - You can simply double-click `index.html` to open it in your default browser, or right-click and choose "Open with" to select a specific browser.
 
 2. **Live Server** (Optional): Open `VS Code`
 
-    - Install the `Live Server` extension to easily view your changes in real-time.
+    - Install the **Live Server** extension to easily view your changes in real-time.
 
     - To install:
       - Open **Extensions** in VS Code (left sidebar   or Ctrl+Shift+X).
