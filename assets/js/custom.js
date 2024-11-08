@@ -221,10 +221,10 @@ $(document).ready(function() {
                 
                 // set personal subject and the sender email body
                 var subject = `Take a look at this message ${$('input[name="name"]').val()} sent from your personal site - Da'Quan` 
-                var sender_body = `<h1> Name:  ${$('input[name="name"]').val()} <br/>
-	                                    Email: ${$('input[name="email"]').val()} </h1> <br/>
-	                                <p> Subject:  ${$('input[name="subject"]').val()} <br/>
-	                                    Message:  ${$('textarea[name="message"]').val()} </p>`
+                var sender_body = `<h2> Name:  ${$('input[name="name"]').val()} <br/>
+	                                    Email: ${$('input[name="email"]').val()} </h2> <br/>
+	                                <h3> Subject:  ${$('input[name="subject"]').val()} <br/>
+	                                    Message:  ${$('textarea[name="message"]').val()} </h3>`
 
                 // Capture form data
                 var formData = {
