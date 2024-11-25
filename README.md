@@ -10,7 +10,7 @@ Built with JQuery, this fully responsive personal portfolio website serves as a 
 <!-- This first iteration of <a href="https://deanjohnson.me">deanjohnson.me</a> built with jquery and bootstrap.  -->
 </h4>
 
-<img  src="./assets//images/dj-me.png" alt="dj-headshot" /> 
+<img  src="./assets/images/deanj-me.png" alt="dj-headshot" /> 
 
 # Repository
 ### This repository contains a single-page site:
