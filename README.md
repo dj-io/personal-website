@@ -1,16 +1,16 @@
 <h1 align="center"> 
 <img style="border-radius:50%" src="./assets/images/daquanjohnson-nft-headshot.jpeg" width="75" height="75" alt="dj-headshot" /> 
-</br> deanjohnson
+</br> daquanjohnson
 </h1>
 
 # Application
 <h4 align="center">
 Built with JQuery, this fully responsive personal portfolio website serves as a central hub to showcase my projects, skills, and milestones.
-<a href="https://deanjohnson.me" target="_blank" rel="noreferrer"> 🍾 Live Site</a>
-<!-- This first iteration of <a href="https://deanjohnson.me">deanjohnson.me</a> built with jquery and bootstrap.  -->
+<a href="https://daquanjohnson.me" target="_blank" rel="noreferrer"> 🍾 Live Site</a>
+<!-- This first iteration of <a href="https://daquanjohnson.me">daquanjohnson.me</a> built with jquery and bootstrap.  -->
 </h4>
 
-<img  src="./assets/images/deanj-me.png" alt="dj-headshot" /> 
+<img  src="./assets/images/dj-me.png" alt="dj-headshot" /> 
 
 # Repository
 ### This repository contains a single-page site:
