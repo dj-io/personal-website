@@ -214,7 +214,7 @@ $(document).ready(function() {
         $(".counting-number").countTo();
     });
     
-
+    // contact form
     $(function () {
         var v = $("#contactform").validate({
             submitHandler: function (form) {
