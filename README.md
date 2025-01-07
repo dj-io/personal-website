@@ -32,7 +32,7 @@ Built with JQuery, this fully responsive personal portfolio website serves as a 
 - **IcoMoon Fonts & Icons**: Icon fonts for visual elements
 - **AWS Lambda, SES, and API Gateway**: Python-powered  microservice for contact form email handling. **The Lambda function is managed separately in [this repository](https://github.com/dj-io/lambdas).*
 
-## 🛠 set-up
+## 🛠 Set-up
 
 ### Prerequisites
 
@@ -62,3 +62,9 @@ Ensure you have the following installed:
       - Open **Extensions** in VS Code (left sidebar   or Ctrl+Shift+X).
       - Search for **Live Server** and click **Install**.
       - Once installed, right-click on `index.html` and select **Open with Live Server**. This will open your site in a browser window and automatically refresh when you make and save changes.
+
+## 🎨 Theme Attribution
+
+This portfolio website is built using the [Olyve - Personal Portfolio HTML Template](https://themeforest.net/item/olyve-personal-portfolio-html-template/55046741?_ga=2.119386060.490075603.1736248144-940277601.1736248144&_gac=1.221789802.1736248144.Cj0KCQiAvvO7BhC-ARIsAGFyToVPymBzsjlDHk0Rd5F6Ya1EcX6_Xrotyb5n2GohazIr13EecAEn6YwaAiPrEALw_wcB) from **ThemeForest**. 
+
+The template serves as the foundation for this project, with customizations made to suit my personal branding and project needs.
