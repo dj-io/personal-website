@@ -10,7 +10,7 @@ Built with JQuery, this fully responsive personal portfolio website serves as a 
 <!-- This first iteration of <a href="https://daquanjohnson.me">daquanjohnson.me</a> built with jquery and bootstrap.  -->
 </h4>
 
-<img  src="./assets//images/dj-me.png" alt="dj-headshot" /> 
+<img  src="./assets/images/dj-me.png" alt="dj-headshot" /> 
 
 # Repository
 ### This repository contains a single-page site:
@@ -30,7 +30,7 @@ Built with JQuery, this fully responsive personal portfolio website serves as a 
 - **Isotope & Masonry**: Used for responsive grid layouts
 - **imagesLoaded**: Ensures images load before layout adjustments
 - **IcoMoon Fonts & Icons**: Icon fonts for visual elements
-- **AWS Lambda, SES, and API Gateway**: Python-powered  microservice for contact form email handling. **The Lambda function is managed separately in [this repository](https://github.com/DaquanJ/lambdas).*
+- **AWS Lambda, SES, and API Gateway**: Python-powered  microservice for contact form email handling. **The Lambda function is managed separately in [this repository](https://github.com/dj-io/lambdas).*
 
 ## 🛠 set-up
 

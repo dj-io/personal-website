@@ -235,17 +235,17 @@ $(document).ready(function() {
 
                 // Send AJAX request to API Gateway
                 $.ajax({
-                    url: "https://e8w8hi2sre.execute-api.us-east-1.amazonaws.com/pws-send",  // Replace with your API Gateway endpoint
+                    url: "https://e8w8hi2sre.execute-api.us-east-1.amazonaws.com/pws-send",  // API Gateway endpoint
                     type: "POST",
                     dataType: "json",
                     contentType: "application/json",
                     data: JSON.stringify(formData),
                     success: function (response) {
-                        $("#contactresult").html("<br/> <p>Thank you, Your message sent successfully!</p>"); // display some success message 
+                        $("#contactresult").html("<br/> <p>Thank you, Your message sent successfully!</p>"); // display success message 
                         $(form).trigger("reset");  // Clear the form
                     },
                     error: function (xhr, status, error) {
-                        $("#contactresult").html('<br/> <p align="center">Failed to send message. <br/> Please try again later, or send a direct email to daquanj.dev@gmail.com. </p>'); // display some error message
+                        $("#contactresult").html('<br/> <p align="center">Failed to send message. <br/> Please try again later, or send a direct email to daquanj.dev@gmail.com. </p>'); // display error message
                     }
                 });
             }
