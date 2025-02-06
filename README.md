@@ -45,8 +45,8 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-html-site.git
-    cd your-html-site
+    git clone https://github.com/dj-io/personal-website.git
+    cd personal-website
     ```
 
 ### Running the Application
